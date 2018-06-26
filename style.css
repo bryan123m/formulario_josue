@@ -34,7 +34,7 @@ section form > div:first-child {
 	width: 100%;
 }
 
-section form > div > label,
+section form > div > label;
 section form > div > input {
 	display: block;
 }
@@ -43,3 +43,9 @@ section form > div > input {
 	width: 90%;
 }
 
+section form > div input + label {
+	display: inline;
+}
+
+section form > div > input {
+	display: inline;
